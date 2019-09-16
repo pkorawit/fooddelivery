@@ -9,4 +9,13 @@ document.addEventListener('init', function (event) {
       $("#sidemenu")[0].open();      
     });
   }
+
+  if (page.id === 'menuPage') {
+    console.log("menuPage");
+
+    $("#login").click(function () {
+      $("#content")[0].load("login.html");  
+      $("#sidemenu")[0].close();   
+    });
+  }
 });
