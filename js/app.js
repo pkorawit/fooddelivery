@@ -17,5 +17,18 @@ document.addEventListener('init', function (event) {
       $("#content")[0].load("login.html");  
       $("#sidemenu")[0].close();   
     });
+
+    $("#home").click(function () {
+      $("#content")[0].load("home.html");  
+      $("#sidemenu")[0].close();   
+    });
+  }
+
+  if (page.id === 'loginPage') {
+    console.log("loginPage");
+
+    $("#backhomebtn").click(function () {
+      $("#content")[0].load("home.html");      
+    });
   }
 });
