@@ -1,0 +1,90 @@
+    .recomended_item {
+        padding-left: 10px;
+    }
+
+    .recomended_item_title {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .thumbnail {
+        width: 120px;
+        height: 120px;
+        display: table;
+        background-color: rgba(0, 0, 0, 0.42);
+    }
+
+    .recomended_list {
+        height: 150px;
+    }
+
+    .recomended {
+        background-color: white;
+        padding-top: 60px;
+    }
+
+    .menu_list {
+        background: transparent;
+    }
+
+    .menu_item {
+        color: white;
+        font-size: 12px;
+    }
+
+    .menu_item ons-icon {
+        margin-right: 10px;
+        color: gray;
+        font-size: 16px;
+    }
+
+    .category_content {
+        background-color: white;
+    }
+
+    .category {
+        margin: 20px 0px;
+        padding: 0px 30px;
+    }
+
+    .category_wrapper {
+        max-width: 150px;
+        width: 95%;
+        height: 120px;
+        margin: auto;
+        background-color: gold;
+    }
+
+    .category_header {
+        width: 95%;
+        height: 80px;
+        margin: auto;
+        background-color: gold;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .category_header_title {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+        padding-top: 20px;
+    }
+    .category_wrapper ons-icon {
+        font-size: 55px;
+        padding-top: 10px;
+        line-height: 0.75em;
+    }
+
+    .category_thumbnail {
+        display: inline-block;
+        margin: 16px 0px;
+    }
+
+    .category_title {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+    }
